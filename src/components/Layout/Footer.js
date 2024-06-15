@@ -99,22 +99,13 @@ export default function Footer() {
                     }}
                 >
                     <Typography variant="body2" fontWeight={600}>
-                        Product
+                        Important Links
                     </Typography>
                     <Link color="text.secondary" href="#">
-                        Features
+                        Health Professionals
                     </Link>
                     <Link color="text.secondary" href="#">
-                        Testimonials
-                    </Link>
-                    <Link color="text.secondary" href="#">
-                        Highlights
-                    </Link>
-                    <Link color="text.secondary" href="#">
-                        Pricing
-                    </Link>
-                    <Link color="text.secondary" href="#">
-                        FAQs
+                        About Us
                     </Link>
                 </Box>
                 <Box
@@ -125,95 +116,21 @@ export default function Footer() {
                     }}
                 >
                     <Typography variant="body2" fontWeight={600}>
-                        Company
+                        Contact Us
                     </Typography>
                     <Link color="text.secondary" href="#">
-                        About us
+                        Call: (+212) 539 786 146
                     </Link>
                     <Link color="text.secondary" href="#">
-                        Careers
+                        Email: medin@gmail.com
                     </Link>
                     <Link color="text.secondary" href="#">
-                        Press
+                        Address: 0123 Some place
+                    </Link>
+                    <Link color="text.secondary" href="#">
+                        Some country
                     </Link>
                 </Box>
-                <Box
-                    sx={{
-                        display: { xs: 'none', sm: 'flex' },
-                        flexDirection: 'column',
-                        gap: 1,
-                    }}
-                >
-                    <Typography variant="body2" fontWeight={600}>
-                        Legal
-                    </Typography>
-                    <Link color="text.secondary" href="#">
-                        Terms
-                    </Link>
-                    <Link color="text.secondary" href="#">
-                        Privacy
-                    </Link>
-                    <Link color="text.secondary" href="#">
-                        Contact
-                    </Link>
-                </Box>
-            </Box>
-            <Box
-                // sx={{
-                //     display: 'flex',
-                //     justifyContent: 'space-between',
-                //     pt: { xs: 4, sm: 8 },
-                //     width: '100%',
-                //     borderTop: '1px solid',
-                //     borderColor: 'divider',
-                // }}
-            >
-                {/*<div>*/}
-                {/*    <Link color="text.secondary" href="#">*/}
-                {/*        Privacy Policy*/}
-                {/*    </Link>*/}
-                {/*    <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>*/}
-                {/*        &nbsp;•&nbsp;*/}
-                {/*    </Typography>*/}
-                {/*    <Link color="text.secondary" href="#">*/}
-                {/*        Terms of Service*/}
-                {/*    </Link>*/}
-                {/*    <Copyright />*/}
-                {/*</div>*/}
-                {/*<Stack*/}
-                {/*    direction="row"*/}
-                {/*    justifyContent="left"*/}
-                {/*    spacing={1}*/}
-                {/*    useFlexGap*/}
-                {/*    sx={{*/}
-                {/*        color: 'text.secondary',*/}
-                {/*    }}*/}
-                {/*>*/}
-                {/*    <IconButton*/}
-                {/*        color="inherit"*/}
-                {/*        href="https://github.com/mui"*/}
-                {/*        aria-label="GitHub"*/}
-                {/*        sx={{ alignSelf: 'center' }}*/}
-                {/*    >*/}
-                {/*        <FacebookIcon />*/}
-                {/*    </IconButton>*/}
-                {/*    <IconButton*/}
-                {/*        color="inherit"*/}
-                {/*        href="https://twitter.com/MaterialUI"*/}
-                {/*        aria-label="X"*/}
-                {/*        sx={{ alignSelf: 'center' }}*/}
-                {/*    >*/}
-                {/*        <TwitterIcon />*/}
-                {/*    </IconButton>*/}
-                {/*    <IconButton*/}
-                {/*        color="inherit"*/}
-                {/*        href="https://www.linkedin.com/company/mui/"*/}
-                {/*        aria-label="LinkedIn"*/}
-                {/*        sx={{ alignSelf: 'center' }}*/}
-                {/*    >*/}
-                {/*        <LinkedInIcon />*/}
-                {/*    </IconButton>*/}
-                {/*</Stack>*/}
             </Box>
         </Container>
     );

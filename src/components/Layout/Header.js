@@ -96,7 +96,7 @@ function Header({ mode, toggleColorMode }) {
                                     sx={{ py: '6px', px: '12px' }}
                                 >
                                     <Typography variant="body2" color="text.primary">
-                                        Features
+                                        Health Professionals
                                     </Typography>
                                 </MenuItem>
                                 <MenuItem
@@ -104,7 +104,7 @@ function Header({ mode, toggleColorMode }) {
                                     sx={{ py: '6px', px: '12px' }}
                                 >
                                     <Typography variant="body2" color="text.primary">
-                                        Testimonials
+                                        Glucose Level
                                     </Typography>
                                 </MenuItem>
                                 <MenuItem
@@ -112,7 +112,7 @@ function Header({ mode, toggleColorMode }) {
                                     sx={{ py: '6px', px: '12px' }}
                                 >
                                     <Typography variant="body2" color="text.primary">
-                                        Highlights
+                                        Treatments
                                     </Typography>
                                 </MenuItem>
                                 <MenuItem
@@ -120,15 +120,7 @@ function Header({ mode, toggleColorMode }) {
                                     sx={{ py: '6px', px: '12px' }}
                                 >
                                     <Typography variant="body2" color="text.primary">
-                                        Pricing
-                                    </Typography>
-                                </MenuItem>
-                                <MenuItem
-                                    onClick={() => scrollToSection('faq')}
-                                    sx={{ py: '6px', px: '12px' }}
-                                >
-                                    <Typography variant="body2" color="text.primary">
-                                        FAQ
+                                        Diets
                                     </Typography>
                                 </MenuItem>
                             </Box>

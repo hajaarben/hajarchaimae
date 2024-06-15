@@ -9,3 +9,13 @@
 body {
   font-family: "roboto", sans-serif;
 }
+
+.MuiSvgIcon-root circle {
+  /* Styles personnalisés */
+  fill: white;
+  stroke: #857c7c;
+  stroke-width: 2px;
+}
+
+
+
